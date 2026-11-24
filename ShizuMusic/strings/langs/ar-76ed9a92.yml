@@ -1,0 +1,585 @@
+# --------------------------------------------------------------------------------
+#  ShizuMusic © 2026 — العربية (Arabic)
+#
+#  Arabic translation of en.yml. Any key not translated here falls back to English.
+# --------------------------------------------------------------------------------
+
+name: "العربية"
+
+# ── /autoplay ──────────────────────────────────────────────────────────────────
+autoplay_title:        "🔁 التشغيل التلقائي"
+autoplay_usage_title:  "🔁 طريقة استخدام التشغيل التلقائي"
+autoplay_usage_note: |-
+  <code>/autoplay on</code> · <code>/autoplay off</code>
+  <code>/autoplay lang hindi</code> (أو <code>auto</code>)
+  <code>/autoplay mood sad</code> (أو <code>any</code>)
+
+autoplay_status_note: |-
+  <code>/autoplay on</code> · <code>/autoplay off</code>
+  <code>/autoplay lang hindi</code> (أو <code>auto</code>)
+  <code>/autoplay mood sad</code> (أو <code>any</code>)
+
+  اللغات: {0}
+  الأجواء: {1}
+
+autoplay_status_on:    "مفعّل ✅"
+autoplay_status_off:   "متوقف ❌"
+autoplay_kv_status:    "الحالة"
+autoplay_kv_lang:      "اللغة"
+autoplay_kv_mood:      "الجو"
+
+autoplay_admin_only_title: "⛔ للمشرفين فقط"
+autoplay_admin_only_note:  "مشرفو المجموعة فقط يقدروا يستخدموا /autoplay"
+
+autoplay_enabled_title:    "🔁 تم تفعيل التشغيل التلقائي"
+autoplay_enabled_note:     "بواسطة » {0}\nلما تخلص قائمة التشغيل، هتكمل أغاني مشابهة تلقائيًا."
+
+autoplay_disabled_title:   "❍ تم إيقاف التشغيل التلقائي"
+autoplay_disabled_note:    "بواسطة » {0}"
+
+autoplay_unknown_lang_title: "❍ لغة غير معروفة"
+autoplay_unknown_lang_note:  "المتاح: {0}"
+autoplay_lang_set_title:     "🔁 لغة التشغيل التلقائي"
+autoplay_lang_set_note:      "تم الضبط على » <code>{0}</code>"
+
+autoplay_unknown_mood_title: "❍ جو غير معروف"
+autoplay_unknown_mood_note:  "المتاح: {0}"
+autoplay_mood_set_title:     "🔁 جو التشغيل التلقائي"
+autoplay_mood_set_note:      "تم الضبط على » <code>{0}</code>"
+
+autoplay_someone: "شخص ما"
+
+# ── /language ──────────────────────────────────────────────────────────────────
+lang_1: "» اختار لغة لهذه المحادثة:"
+lang_2: "» تم تحديث اللغة."
+lang_3: "» حصل خطأ أثناء تغيير اللغة، فضلت اللغة القديمة."
+lang_4: "» دي اللغة الحالية بالفعل."
+lang_5: "⛔ مشرفو المجموعة فقط يقدروا يغيّروا اللغة."
+
+# ── shared / generic (reused across modules) ────────────────────────────────────
+admin_only_title: "⛔ للمشرفين فقط"
+admin_only_note:  "هذا الأمر لمشرفي المجموعة فقط."
+queue_empty_title: "❍ قائمة التشغيل فاضية"
+download_failed_title: "❍ فشل التحميل"
+next_track_title: "❍ المقطع التالي"
+generic_processing_note: "جاري المعالجة..."
+generic_error_title: "❍ خطأ"
+vc_ended_title: "❍ انتهت المحادثة الصوتية"
+vc_ended_note:  "تم مسح قائمة التشغيل — اكتب /play للبدء من جديد."
+queue_finished_title: "❍ انتهت قائمة التشغيل"
+queue_finished_note:  "تم الخروج من المحادثة الصوتية."
+
+kv_title:   "العنوان"
+kv_dur:     "المدة"
+kv_by:      "بواسطة"
+kv_pos:     "الموضع"
+kv_max:     "الحد الأقصى"
+kv_songs:   "الأغاني"
+kv_first:   "الأول"
+kv_next:    "التالي"
+kv_play:    "تشغيل"
+kv_or:      "أو"
+kv_video:   "فيديو"
+kv_channel: "القناة"
+kv_skipped: "تم تخطيها"
+kv_now_playing: "يتم التشغيل الآن"
+kv_processing_in: "المعالجة خلال"
+
+# ── /play & /vplay ───────────────────────────────────────────────────────────────
+play_processing_media:      "❍ جاري معالجة الملف..."
+play_file_too_large_title:  "❍ الملف كبير جدًا"
+play_downloading_media:     "❍ جاري تحميل الملف..."
+play_blocked_title:         "❍ الأغنية دي محظورة"
+play_cooldown_title:        "❍ فترة انتظار شغالة"
+play_usage_title:           "❍ طريقة الاستخدام"
+play_usage_play_val:        "<code>/play song name</code>"
+play_usage_or_val:          "<code>/play youtube url</code>"
+play_usage_video_val:       "<code>/vplay song name</code>"
+play_usage_channel_val:    "<code>/cplay song name</code>"
+play_processing_title:      "❍ جاري المعالجة..."
+play_assistant_banned_title:  "❍ الحساب المساعد محظور"
+play_assistant_banned_note:   "من فضلك ارفع الحظر عن الحساب المساعد وجرّب تاني"
+play_assistant_joining_title: "❍ الحساب المساعد بينضم للمجموعة..."
+play_assistant_joined_title:  "❍ الحساب المساعد انضم ✓"
+play_search_failed_title:   "❍ فشل البحث"
+play_playlist_empty_title:  "❍ قائمة الأغاني فاضية"
+play_playlist_added_title:  "❍ تمت إضافة قائمة الأغاني"
+play_song_not_found_title:  "❍ الأغنية مش موجودة"
+play_song_too_long_title:   "❍ الأغنية طويلة جدًا"
+play_added_queue_title:     "❍ تمت الإضافة لقائمة التشغيل"
+
+# ── /skip ─────────────────────────────────────────────────────────────────────
+skip_empty_note:      "مفيش أغاني لتخطيها."
+skip_skipping_title:  "⏭ جاري تخطي المقطع الحالي..."
+skip_skipped_title:   "⏭ تم تخطي المقطع"
+skip_queue_empty_note: "قائمة التشغيل فاضية دلوقتي"
+
+# ── /stop, /end, /clear, /reboot ──────────────────────────────────────────────
+stop_stopped_title: "⏹ تم إيقاف التشغيل"
+stop_stopped_note:  "تم مسح قائمة التشغيل · تم الخروج من المحادثة الصوتية"
+clear_cleared_title: "🧹 تم مسح قائمة التشغيل"
+clear_cleared_note:  "تم حذف كل الأغاني"
+reboot_title: "🔄 تم إعادة تشغيل المحادثة"
+reboot_note:  "تمت إعادة ضبط كل الحالات"
+
+# ── /pause & /resume ───────────────────────────────────────────────────────────
+pause_title:  "⏸ تم إيقاف البث مؤقتًا"
+pause_note:   "تم إيقاف تشغيل الموسيقى مؤقتًا."
+pause_failed_title: "❍ فشل الإيقاف المؤقت"
+resume_title: "▶ تم استئناف البث"
+resume_note:  "تم استئناف تشغيل الموسيقى."
+resume_failed_title: "❍ فشل الاستئناف"
+
+# ── /repo ──────────────────────────────────────────────────────────────────────
+repo_title: "🍡 كود شيزو ميوزك"
+repo_note:  "❍ مستودع جيت هاب — ما تتردد تدوس ⭐ على جيت هاب!"
+
+# ── button labels (utils/buttons.py) ───────────────────────────────────────────
+btn_skip:      "⌯ تخطي ⌯"
+btn_clear:     "⌯ مسح ⌯"
+btn_support:   "🍬 الدعم 🍬"
+btn_updates:   "🍹 التحديثات 🍹"
+btn_source:    "🍡 الكود المصدري 🍡"
+btn_fork:      "🔱 نسخ المشروع 🔱"
+btn_close:     "⌯ إغلاق ⌯"
+btn_back:      "⌯ رجوع ⌯"
+btn_home:      "⌯ الرئيسية ⌯"
+btn_make_admin: "⚡ اجعلني مشرفًا ⚡"
+btn_add_me:    "⛩️ أضِفني ⛩️"
+btn_help:      "🏩 المساعدة والأوامر 🏩"
+btn_owner:     "🫧 المالك 🫧"
+
+# ── /ping ──────────────────────────────────────────────────────────────────────
+ping_pinging: "❍ {0} بيقيس السرعة..."
+ping_title:   "🏓 بونج : {0}ms"
+ping_footer_by: "<p>❍ بواسطة » <a href=\"{0}\">sʜɪᴢᴜ-ᴍᴜsɪᴄ™</a></p>"
+kv_uptime: "مدة التشغيل"
+kv_ram:    "الذاكرة (RAM)"
+kv_cpu:    "المعالج (CPU)"
+kv_disk:   "القرص"
+kv_pytgc:  "PyTgCalls"
+
+# ── /speedtest (owner-only diagnostic; only headline text localized) ───────────
+speedtest_starting: "❍ جاري بدء اختبار السرعة، من فضلك استنى..."
+speedtest_failed:   "❍ فشل اختبار السرعة، جرّب تاني"
+speedtest_title:    "⚡ نتائج اختبار السرعة"
+
+# ── /stats (owner-only diagnostic; only headline text localized) ───────────────
+stats_fetching: "❍ جاري جلب الإحصائيات، من فضلك استنى..."
+stats_system_error_title: "❍ خطأ في إحصائيات النظام"
+stats_title: "❍ إحصائيات شيزو ميوزك"
+
+# ── /broadcast, /gcast (owner-only) ────────────────────────────────────────────
+bc_already_running_title: "❍ فيه بث جماعي شغال بالفعل"
+bc_already_running_note:  "من فضلك استنى لحد ما يخلص."
+bc_usage_title: "❍ ردّ على رسالة أو اكتب نص"
+bc_usage_rows:
+  - ["-pin", "تثبيت بدون إشعار في المجموعات"]
+  - ["-pinloud", "تثبيت مع إشعار"]
+  - ["-nogroup", "تخطي المجموعات"]
+  - ["-user", "الإرسال للمستخدمين في الخاص كمان"]
+bc_headers_flag_effect: ["الخيار", "التأثير"]
+bc_no_targets_title: "❍ مفيش أهداف في قائمة البث"
+bc_started_title: "❍ بدأ البث الجماعي"
+bc_completed_title: "❍ اكتمل البث الجماعي ✅"
+kv_total: "الإجمالي"
+kv_groups: "المجموعات"
+kv_users: "المستخدمون"
+kv_targets: "الأهداف"
+kv_flags: "الخيارات"
+kv_pinned: "المثبّتة"
+kv_failed: "الفاشلة"
+
+# ── /speed, /bass, /effect* ─────────────────────────────────────────────────────
+effects_no_song_title: "❍ مفيش أغنية شغالة دلوقتي"
+effects_applying_title: "❍ جاري تطبيق المؤثرات، من فضلك استنى..."
+effects_resolve_failed_title: "❍ فشل تحديد مصدر البث"
+effects_ffmpeg_error_title: "❍ خطأ في ffmpeg"
+effects_playback_failed_title: "❍ فشل التشغيل"
+effects_applied_title: "❍ تم تطبيق المؤثرات ✓"
+effects_speed_normal_label: "عادية (1.0x)"
+effects_bass_off_label: "متوقف"
+effects_bass_boost_label: "تعزيز {0} dB"
+effects_invalid_value_title: "❍ قيمة غير صالحة"
+effects_speed_range_title: "❍ السرعة لازم تكون بين 0.25 و 4.0"
+effects_bass_range_title: "❍ الباس لازم يكون بين 1 و 20"
+effects_enabled_title: "❍ تم تفعيل المؤثرات ✓"
+effects_enabled_note: "كل الأغاني في المجموعة دي هتشتغل بالمؤثرات من دلوقتي. استخدم /effectoff للإيقاف."
+effects_disabled_title: "❍ تم إيقاف المؤثرات ✓"
+effects_disabled_note: "الأغاني هتشتغل بشكل عادي في المجموعة دي. إعدادات السرعة والباس محفوظة — استخدم /effecton لتفعيلها تاني."
+effects_status_title: "❍ حالة المؤثرات — {0}"
+effects_mode_on_label:  "مفعّلة — كل الأغاني متأثرة 🟢"
+effects_mode_off_label: "متوقفة — يدويًا لكل أغنية 🔴"
+effects_nothing_playing: "مفيش حاجة شغالة"
+effects_help_rows:
+  - ["/speed 1.5", "ضبط السرعة (0.25–4.0)"]
+  - ["/speedreset", "الرجوع للسرعة العادية"]
+  - ["/bass 10", "تعزيز الباس (1–20 dB)"]
+  - ["/bassoff", "إزالة تعزيز الباس"]
+  - ["/effecton", "تطبيق المؤثرات على كل الأغاني"]
+  - ["/effectoff", "الوضع اليدوي فقط"]
+kv_position: "الموضع"
+kv_speed: "السرعة"
+kv_bass: "الباس"
+kv_bass_boost: "تعزيز الباس"
+kv_mode: "الوضع"
+kv_song: "الأغنية"
+kv_usage: "الاستخدام"
+kv_command: "الأمر"
+kv_description: "الوصف"
+
+# ── /seek & /seekback ────────────────────────────────────────────────────────
+seek_no_song_title: "❍ مفيش أغنية شغالة دلوقتي"
+seek_seeking_title: "⏩ جاري التقديم..."
+seek_failed_resolve_title: "❍ فشل التقديم — تعذّر تحديد مصدر البث"
+seek_failed_title: "❍ فشل التقديم"
+seek_invalid_seconds_title: "❍ من فضلك اكتب عدد ثواني أكبر من 0"
+seek_almost_finished_title: "❍ الأغنية قربت تخلص، مينفعش تقدّم لقدام"
+seek_too_far_title: "❍ مينفعش تقدّم لقدام للدرجة دي"
+seek_usage_title: "❍ طريقة استخدام التقديم"
+seek_usage_rows:
+  - ["/seek 30", "تقديم 30 ثانية"]
+  - ["/seekback 30", "رجوع 30 ثانية"]
+kv_to: "إلى"
+kv_current_position: "الموضع الحالي"
+kv_song_duration: "مدة الأغنية"
+now_playing_title: "🎧 شيزو ميوزك — يتم التشغيل الآن"
+kv_duration: "المدة"
+kv_seeked_to: "تم الانتقال إلى"
+
+# ── core/player.py ──────────────────────────────────────────────────────────
+loading_title: "❍ جاري التحميل..."
+vc_start_failed_server_title: "❍ فشل بدء المحادثة الصوتية (سيرفر تيليجرام)"
+vc_perm_missing_title: "❍ صلاحية بدء المحادثة الصوتية ناقصة"
+vc_perm_missing_note: "أعطِ الحساب المساعد » صلاحية إدارة المحادثات المرئية وصلاحيات المشرف"
+vc_start_failed_title: "❍ فشل بدء المحادثة الصوتية"
+playback_failed_server_title: "❍ فشل التشغيل (سيرفر تيليجرام)"
+playback_perm_missing_note: "من فضلك أعطِ » صلاحية إدارة المحادثات المرئية وصلاحيات المشرف · ولازم الحساب المساعد يكون مشرف"
+
+# ── /gblock, /gunblock, /ublock, /uunblock, /blocklist (owner only) ──────────
+block_invalid_chat_id_title: "❍ معرّف المحادثة غير صالح"
+block_use_group_or_id_title: "❍ استخدمه داخل مجموعة أو اكتب معرّف المحادثة"
+block_already_title: "❍ محظور بالفعل"
+block_not_blocked_title: "❍ غير محظور"
+block_group_blocked_title: "❍ تم حظر المجموعة ✅"
+block_group_blocked_note: "مفيش أوامر هتشتغل في المجموعة دي دلوقتي."
+block_group_unblocked_title: "❍ تم رفع الحظر عن المجموعة ✅"
+block_group_unblocked_note: "الأوامر شغالة تاني في المجموعة دي."
+block_invalid_user_id_title: "❍ معرّف المستخدم غير صالح"
+block_ublock_usage_note: "استخدم » <code>/ublock 123456789</code> أو ردّ على مستخدم."
+block_uunblock_usage_note: "استخدم » <code>/uunblock 123456789</code> أو ردّ على مستخدم."
+block_reply_or_id_title: "❍ ردّ على رسالة المستخدم أو اكتب معرّفه"
+block_cannot_block_owner_title: "❍ مينفعش تحظر نفسك (المالك)"
+block_user_blocked_title: "❍ تم حظر المستخدم ✅"
+block_user_blocked_note: "المستخدم ده مش هيقدر يستخدم أي أمر من البوت دلوقتي."
+block_user_unblocked_title: "❍ تم رفع الحظر عن المستخدم ✅"
+block_user_unblocked_note: "المستخدم ده يقدر يستخدم أوامر البوت تاني."
+block_list_title: "❍ قائمة الحظر — {0} مجموعات، {1} مستخدمين"
+block_list_empty_note: "مفيش حاجة محظورة."
+kv_group: "المجموعة"
+kv_user: "المستخدم"
+kv_chat_id: "معرّف المحادثة"
+kv_name: "الاسم"
+kv_user_id: "معرّف المستخدم"
+kv_type: "النوع"
+kv_id: "المعرّف"
+
+# ── onboarding (private /start & help "go back") ───────────────────────────────
+onboarding_greeting: "<p>❍ أهلاً <a href='tg://user?id={0}'>{1}</a>، نورتنا! 🎶</p>"
+onboarding_intro: "<p>أنا <b>{0}</b> — بوت موسيقى سريع وقوي على تيليجرام، وفيه مميزات حلوة.</p>"
+onboarding_features_heading: "✦ المميزات الرئيسية ✦"
+onboarding_features_rows:
+  - ["🎵 البث", "تشغيل الصوت والفيديو في المحادثات الصوتية"]
+  - ["🔁 التشغيل التلقائي", "يكمّل قائمة التشغيل تلقائيًا"]
+  - ["🎚️ المؤثرات", "التحكم في السرعة وتعزيز الباس"]
+  - ["🛡️ الإشراف", "حظر/رفع حظر المحادثات والمستخدمين"]
+onboarding_features_headers: ["الميزة", "التفاصيل"]
+onboarding_why_heading: "✧ ليه تختاره؟ ✧"
+onboarding_why_body: "<p>⭐ أوامر بسيطة بشرطة مائلة، ومن غير أي إعداد.</p><p>🎧 بث نضيف وبدون تأخير.</p><p>❍ دوس على المساعدة تحت لتشوف كل الأوامر.</p>"
+onboarding_powered_by: "مدعوم بواسطة » <a href='https://t.me/PBXCHATS'>sʜɪᴢᴜ-ᴍᴜsɪᴄ™</a>"
+
+# ── /start in a group ───────────────────────────────────────────────────────────
+group_thanks_title: "❍ أهلاً {0}، أنا {1}"
+group_thanks_note: "شكرًا إنك ضفتني في {0}. {1} يقدر يشغّل الأغاني هنا دلوقتي."
+group_admin_request_title: "شكرًا إنك ضفتني! 🥀"
+group_admin_request_note1: "<p>من فضلك خليني مشرف بالصلاحيات دي:</p><p>❍ حذف الرسائل<br>❍ إدارة المحادثات المرئية<br>❍ دعوة المستخدمين</p>"
+group_admin_request_note2: "من غير صلاحيات المشرف، بعض المميزات مش هتشتغل! 🚫"
+
+# ── /help ──────────────────────────────────────────────────────────────────────
+help_pick_category_title: "📜 اختار قسم"
+help_pick_category_note: "<p>❍ أهلاً <a href=\"tg://user?id={0}\">{1}</a>، اختار قسم من تحت لتشوف أوامره.</p>"
+help_features_heading: "✦ مميزات المساعدة ✦"
+help_features_rows:
+  - ["✉️ قائمة المساعدة", "كل الأوامر تتكتب بالشكل ده : /"]
+
+# ── playback callback confirmations (modules/callbacks.py) ─────────────────────
+cb_admins_only: "❍ للمشرفين فقط"
+cb_paused_toast: "تم الإيقاف المؤقت"
+cb_pause_failed_toast: "فشل الإيقاف المؤقت"
+cb_resumed_toast: "تم الاستئناف"
+cb_resume_failed_toast: "فشل الاستئناف"
+cb_queue_empty_toast: "قائمة التشغيل فاضية"
+cb_playing_next_toast: "تشغيل التالي"
+cb_stopped_toast: "تم الإيقاف"
+cb_queue_cleared_toast: "تم مسح قائمة التشغيل"
+cb_by_footer: "❍ بواسطة » {0}"
+
+# ── help category panels (modules/callbacks.py) ─────────────────────────────────
+help_categories:
+  help_admin:
+    title: "⚙️ أوامر المشرفين"
+    desc:  "أوامر التحكم الأساسية في التشغيل لمشرفي المحادثة."
+    rows:
+      - ["/pause", "إيقاف التشغيل الحالي مؤقتًا"]
+      - ["/resume", "استئناف التشغيل المتوقف"]
+      - ["/skip", "التخطي للأغنية التالية"]
+      - ["/stop, /end", "إيقاف التشغيل &amp; الخروج من المحادثة الصوتية"]
+      - ["/clear", "مسح كل الأغاني من قائمة التشغيل"]
+      - ["/seek &lt;seconds&gt;", "التقديم لقدام بعدد ثواني"]
+      - ["/seekback &lt;seconds&gt;", "الرجوع لورا بعدد ثواني"]
+      - ["/reboot", "إعادة ضبط حالة المحادثة &amp; الخروج من المحادثة الصوتية"]
+  help_autoplay:
+    title: "🔁 أوامر التشغيل التلقائي"
+    desc:  "لما تخلص قائمة التشغيل، يكمّل أغاني مشابهة تلقائيًا."
+    rows:
+      - ["/autoplay", "عرض الحالة الحالية"]
+      - ["/autoplay on, /autoplay off", "تشغيل أو إيقاف التشغيل التلقائي"]
+      - ["/autoplay lang &lt;name&gt;", "اقتراح لغة معينة فقط (أو <code>auto</code>)"]
+      - ["/autoplay mood &lt;name&gt;", "اقتراح جو معين فقط (أو <code>any</code>)"]
+  help_playlist:
+    title: "🎼 أوامر قوائم الأغاني"
+    desc:  "احفظ أغانيك المفضلة وشغّلها في أي وقت."
+    rows:
+      - ["/pcreate &lt;name&gt;", "إنشاء قائمة أغاني"]
+      - ["/padd &lt;name&gt; &lt;song or URL&gt;", "إضافة أغنية أو قائمة يوتيوب"]
+      - ["/padd &lt;name&gt;", "إضافة الأغنية الشغالة دلوقتي"]
+      - ["/premove &lt;name&gt; &lt;number&gt;", "حذف أغنية (الرقم من /pview)"]
+      - ["/pview, /pview &lt;name&gt;", "عرض القوائم / عرض أغاني قائمة"]
+      - ["/pplay &lt;name&gt;", "إضافة القائمة كلها لقائمة التشغيل"]
+      - ["/pdelete &lt;name&gt;", "حذف قائمة أغاني"]
+  help_channel:
+    title: "📡 تشغيل القناة"
+    desc:  "شغّل الموسيقى في المحادثة الصوتية للقناة — نفس الأوامر لكن بحرف c في الأول."
+    rows:
+      - ["/addchannel &lt;@username or -100id&gt;", "ربط قناة بالمجموعة دي (للمشرفين)"]
+      - ["/delchannel", "إيقاف تشغيل القناة وفك الربط"]
+      - ["/cplay, /cvplay &lt;song or URL&gt;", "التشغيل في المحادثة الصوتية للقناة"]
+      - ["/cplayforce &lt;song or URL&gt;", "التشغيل فورًا في القناة والقائمة تكمّل بعده"]
+      - ["/cpplay &lt;name&gt;", "تشغيل قائمة أغاني في القناة"]
+      - ["/cpause, /cresume, /cskip", "التحكم في تشغيل القناة"]
+      - ["/cstop, /cend, /cclear", "إيقاف قائمة القناة أو مسحها"]
+      - ["/cseek, /cseekback &lt;seconds&gt;", "التقديم أو الرجوع في أغنية القناة"]
+      - ["/cspeed, /cbass, /ceffects", "سرعة / باس / مؤثرات القناة"]
+      - ["/cautoplay, /cthumbnail", "التشغيل التلقائي والصورة المصغّرة للقناة"]
+  help_gcast:
+    title: "📢 أوامر البث الجماعي"
+    desc:  "إرسال رسالة لكل المحادثات المشتركة (للمالك فقط)."
+    rows:
+      - ["/broadcast, /gcast", "ردّ على رسالة أو اكتب نص"]
+      - ["-pin", "تثبيت بدون إشعار في المجموعات"]
+      - ["-pinloud", "تثبيت مع إشعار"]
+      - ["-nogroup", "تخطي المجموعات"]
+      - ["-user", "الإرسال للمستخدمين كمان"]
+  help_blchat:
+    title: "🚫 أوامر حظر المحادثات"
+    desc:  "حظر أو رفع حظر مجموعات كاملة (للمالك فقط)."
+    rows:
+      - ["/gblock", "حظر المجموعة الحالية — مفيش أوامر هتشتغل"]
+      - ["/gblock &lt;-100xxxxxxx&gt;", "الحظر بمعرّف المحادثة"]
+      - ["/gunblock", "رفع الحظر عن المجموعة"]
+      - ["/gunblock &lt;-100xxxxxxx&gt;", "رفع الحظر بمعرّف المحادثة"]
+      - ["/blocklist", "عرض كل المجموعات والمستخدمين المحظورين &amp;"]
+  help_blusers:
+    title: "🚫 أوامر حظر المستخدمين"
+    desc:  "حظر أو رفع حظر مستخدمين بعينهم (للمالك فقط)."
+    rows:
+      - ["/ublock", "ردّ على رسالة مستخدم لحظره — مش هيقدر يستخدم أي أمر"]
+      - ["/ublock &lt;user id&gt;", "الحظر بمعرّف المستخدم"]
+      - ["/uunblock", "ردّ على رسالة مستخدم لرفع الحظر عنه"]
+      - ["/uunblock &lt;user id&gt;", "رفع الحظر بمعرّف المستخدم"]
+      - ["/blocklist", "عرض كل المستخدمين والمحادثات المحظورين &amp;"]
+  help_ping:
+    title: "🏓 أوامر الاختبار"
+    desc:  "سرعة الاستجابة وتشخيص النظام."
+    rows:
+      - ["/ping", "سرعة استجابة البوت، والذاكرة، والمعالج، والقرص &amp; مدة التشغيل"]
+      - ["/speedtest, /spt", "اختبار سرعة الشبكة (للمالك فقط)"]
+      - ["/stats", "إحصائيات النظام كاملة + MongoDB (للمالك فقط)"]
+  help_play:
+    title: "🎵 أوامر التشغيل"
+    desc:  "ابدأ تشغيل الصوت أو الفيديو في المحادثة الصوتية."
+    rows:
+      - ["/play &lt;song name or URL&gt;", "تشغيل صوت في المحادثة الصوتية"]
+      - ["/vplay &lt;song name or URL&gt;", "تشغيل فيديو في المحادثة الصوتية"]
+      - ["/playforce &lt;song or URL&gt;", "التشغيل فورًا والقائمة تكمّل بعده (للمشرفين)"]
+      - ["ردّ على صوت/فيديو + /play", "تشغيل الملف ده مباشرة"]
+      - ["روابط يوتيوب", "مدعومة"]
+  help_speed:
+    title: "🎚️ السرعة &amp; المؤثرات"
+    desc:  "اضبط سرعة التشغيل ومؤثرات الصوت."
+    rows:
+      - ["/speed &lt;0.25–4.0&gt;", "تغيير سرعة التشغيل — مثال: /speed 1.5"]
+      - ["/speedreset", "إرجاع السرعة للوضع العادي (1.0x)"]
+      - ["/bass &lt;1–20&gt;", "تعزيز الباس بعدد dB — مثال: /bass 10"]
+      - ["/bassoff", "إيقاف تعزيز الباس"]
+      - ["/effecton", "تطبيق المؤثرات على كل الأغاني"]
+      - ["/effectoff", "إيقاف المؤثرات التلقائية"]
+      - ["/effects", "عرض حالة المؤثرات الحالية"]
+  help_info:
+    title: "ℹ️ أوامر المعلومات"
+    desc:  "معلومات عن البوت والمحادثة والمستخدم."
+    rows:
+      - ["/id", "جلب معرّفات المستخدم / المحادثة / الرسالة — وبتشتغل مع الرد كمان"]
+      - ["/id @username", "جلب معرّف أي مستخدم"]
+      - ["/repo", "رابط الكود المصدري"]
+      - ["/logger on, /logger off", "تشغيل/إيقاف سجلات مجموعة اللوجر (للمالك فقط)"]
+      - ["/stats", "الإحصائيات الكاملة — النظام + MongoDB (للمالك فقط)"]
+
+# ── /language (picker title) ─────────────────────────────────────────────────
+lang_title: "🌐 اللغة"
+
+# ── more button labels ───────────────────────────────────────────────────────
+btn_source_short: "🍡 الكود 🍡"
+btn_language:     "🌐 اللغة"
+btn_thumb_on:     "🖼 الصورة | تعمل"
+btn_thumb_off:    "🖼 الصورة | متوقفة"
+pill_support:     "🍬 الدعم"
+pill_updates:     "🍹 التحديثات"
+
+# ── help menu grid labels ────────────────────────────────────────────────────
+help_btn_admin:    "المشرفين"
+help_btn_autoplay: "تلقائي"
+help_btn_gcast:    "البث"
+help_btn_blchat:   "حظر المحادثات"
+help_btn_blusers:  "حظر المستخدمين"
+help_btn_ping:     "اختبار"
+help_btn_play:     "تشغيل"
+help_btn_speed:    "السرعة"
+help_btn_info:     "معلومات"
+
+# ── help "play" panel: config-driven rows + thumbnail ───────────────────────
+help_play_max_duration:     "أقصى مدة"
+help_play_max_duration_val: "{0} دقيقة"
+help_play_queue_limit:      "حد قائمة التشغيل"
+help_play_queue_limit_val:  "{0} أغنية"
+help_thumbnail_row: ["/thumbnail on, /thumbnail off", "إظهار أو إخفاء الصورة المصغّرة للأغنية"]
+
+# ── /thumbnail ───────────────────────────────────────────────────────────────
+thumb_title: "🖼 الصورة المصغّرة"
+thumb_status_note: |-
+  <code>/thumbnail on</code> · <code>/thumbnail off</code>
+  يتطبق من الأغنية الجاية.
+thumb_enabled_title:  "🖼 تم تفعيل الصورة المصغّرة"
+thumb_enabled_note:   "بواسطة » {0}\nالأغاني الجاية هتظهر بصورتها المصغّرة."
+thumb_disabled_title: "🖼 تم إيقاف الصورة المصغّرة"
+thumb_disabled_note:  "بواسطة » {0}\nالأغاني الجاية هتظهر من غير صورة مصغّرة."
+thumb_enabled_toast:  "🖼 تم تفعيل الصورة المصغّرة للأغاني الجاية"
+thumb_disabled_toast: "🖼 تم إيقاف الصورة المصغّرة للأغاني الجاية"
+
+# ── owner's log channel (LOGGER_ID) — always shown in English ───────────────
+logger_nowplaying_title:  "🎧 #يتم_التشغيل_الآن"
+logger_newuser_title:     "#مستخدم_جديد بدأ"
+logger_newgroup_title:    "📝 #مجموعة_جديدة — تمت إضافة البوت!"
+logger_leftgroup_title:   "✫ #مغادرة_مجموعة ✫"
+logger_unknown_user:      "غير معروف"
+logger_unknown_removed_by: "مستخدم غير معروف"
+logger_get_link:          "جلب الرابط"
+logger_no_link:           "لا يوجد رابط"
+logger_private_group:     "مجموعة خاصة"
+logger_private_chat:      "محادثة خاصة"
+kv_chat_name:  "اسم المحادثة"
+kv_chat_title: "عنوان المحادثة"
+kv_username:   "اسم المستخدم"
+kv_group_link: "رابط المجموعة"
+kv_members:    "الأعضاء"
+kv_added_by:   "أضافه"
+kv_removed_by: "أزاله"
+kv_bot:        "البوت"
+
+# ── player panel: Autoplay toggle + Close ────────────────────────────────────
+btn_autoplay_on:  "🔁 تلقائي | يعمل"
+btn_autoplay_off: "🔁 تلقائي | متوقف"
+autoplay_toggle_on_toast:  "♬ التشغيل التلقائي يعمل — هتكمل أغاني مشابهة"
+autoplay_toggle_off_toast: "♬ التشغيل التلقائي متوقف"
+player_closed_by: "أُغلق بواسطة : {0}"
+
+# ── logger / playlist / playforce (new) ───────────────────────────────────────
+logger_title: "📡 اللوجر"
+logger_kv_target: "معرّف اللوجر"
+logger_not_set: "غير مضبوط (أضف LOGGER_ID في الإعدادات)"
+logger_usage_note: "/logger on — إرسال السجلات لمجموعة اللوجر\n/logger off — عدم إرسال أي شيء لمجموعة اللوجر"
+logger_enabled_title: "📡 تم تفعيل اللوجر"
+logger_enabled_note: "سجلات تشغيل الأغاني، وبدء البوت، وإضافته، وطرده هتروح لمجموعة اللوجر من دلوقتي."
+logger_no_id_note: "لكن LOGGER_ID مش مضبوط، فمفيش حاجة تتبعت دلوقتي."
+logger_disabled_title: "📡 تم إيقاف اللوجر"
+logger_disabled_note: "مفيش حاجة هتتبعت لمجموعة اللوجر لحد ما تشغّله تاني."
+pl_nodb_title: "❍ قاعدة البيانات غير متاحة"
+pl_nodb_note: "قوائم الأغاني محتاجة MongoDB، وهي مش متصلة دلوقتي."
+pl_bad_name_title: "❍ اسم القائمة غير صالح"
+pl_bad_name_note: "استخدم كلمة واحدة: من 1 إلى 20 حرف أو رقم أو _ أو -"
+pl_create_usage_title: "🎼 إنشاء قائمة أغاني"
+pl_create_usage_note: "/pcreate &lt;name&gt; — مثال: /pcreate gym"
+pl_created_title: "🎼 تم إنشاء القائمة"
+pl_created_note: "القائمة <b>{0}</b> جاهزة.\nلإضافة أغاني: /padd {0} &lt;song name or url&gt;"
+pl_exists_title: "❍ القائمة موجودة بالفعل"
+pl_exists_note: "عندك بالفعل قائمة اسمها <b>{0}</b>."
+pl_limit_title: "❍ وصلت للحد الأقصى للقوائم"
+pl_limit_note: "تقدر يكون عندك لحد {0} قوائم. احذف واحدة بالأمر /pdelete &lt;name&gt;."
+pl_not_found_title: "❍ القائمة مش موجودة"
+pl_not_found_note: "معندكش قائمة اسمها <b>{0}</b>.\nأنشئها: /pcreate {0}  |  شوف قوائمك: /pview"
+pl_add_usage_title: "🎼 إضافة لقائمة"
+pl_add_usage_note: "/padd &lt;name&gt; &lt;song name or url&gt;\n/padd &lt;name&gt; — بيضيف الأغنية الشغالة دلوقتي"
+pl_searching_title: "❍ جاري البحث..."
+pl_added_title: "🎼 تمت الإضافة للقائمة"
+pl_full_title: "❍ القائمة ممتلئة"
+pl_full_note: "القائمة الواحدة تشيل لحد {0} أغنية."
+pl_dupe_title: "❍ مفيش جديد للإضافة"
+pl_dupe_note: "الأغنية دي موجودة بالفعل في <b>{0}</b>."
+pl_kv_playlist: "القائمة"
+pl_kv_added: "تمت إضافتها"
+pl_kv_skipped: "تم تخطيها"
+pl_kv_total: "الإجمالي"
+pl_remove_usage_title: "🎼 حذف من القائمة"
+pl_remove_usage_note: "/premove &lt;name&gt; &lt;number&gt; — هتلاقي الرقم في /pview &lt;name&gt;"
+pl_bad_index_title: "❍ رقم الأغنية غلط"
+pl_bad_index_note: "اختار رقم بين 1 و {0}."
+pl_removed_title: "🎼 تم الحذف من القائمة"
+pl_empty_title: "❍ القائمة فاضية"
+pl_empty_note: "<b>{0}</b> مفيهاش أغاني لسه. ضيف شوية: /padd {0} &lt;song&gt;"
+pl_view_title: "🎼 قوائمك"
+pl_view_empty_title: "❍ مفيش قوائم لسه"
+pl_view_empty_note: "أنشئ قائمة بالأمر /pcreate &lt;name&gt;"
+pl_view_note: "/pview &lt;name&gt; — عرض الأغاني  |  /pplay &lt;name&gt; — تشغيلها"
+pl_songs_title: "🎼 القائمة"
+pl_page_note: "صفحة {0}/{1} • {2} أغنية\n/pview {3} &lt;page&gt; — صفحات تانية  |  /pplay {3} — تشغيلها"
+pl_play_usage_title: "🎼 تشغيل قائمة"
+pl_play_usage_note: "/pplay &lt;name&gt; — إضافة قائمتك كلها لقائمة التشغيل في المجموعة دي"
+pl_delete_usage_title: "🎼 حذف قائمة"
+pl_delete_usage_note: "/pdelete &lt;name&gt;"
+pl_deleted_title: "🎼 تم حذف القائمة"
+pl_deleted_note: "<b>{0}</b> ({1} أغنية) تم حذفها."
+pf_usage_title: "⚡ التشغيل الفوري"
+pf_usage_note: "/playforce &lt;song name or url&gt; — بيشغّلها فورًا.\nالأغنية الحالية وقائمتك محفوظين: هيكملوا بعد ما الأغنية دي تخلص."
+help_btn_playlist: "القوائم"
+
+# ── channel play (new) ────────────────────────────────────────────────────────
+ch_not_linked_title: "❍ مفيش قناة مربوطة"
+ch_not_linked_note: "اربط قناة الأول: /addchannel &lt;@username or -100id&gt;\nولازم البوت يكون مشرف في القناة دي."
+ch_status_title: "📡 تشغيل القناة"
+ch_status_none_note: "مفيش قناة مربوطة بالمجموعة دي.\n/addchannel &lt;@username or -100id&gt;"
+ch_status_usage_note: "استخدم /cplay /cvplay /cskip /cpause /cresume /cstop ... للقناة.\n/delchannel — لفك الربط."
+ch_not_found_title: "❍ القناة مش موجودة"
+ch_not_found_note: "راجع اسم المستخدم / المعرّف.\nقناة خاصة؟ ضيف البوت فيها الأول واستخدم معرّف -100."
+ch_not_channel_title: "❍ ده مش قناة"
+ch_not_channel_note: "القنوات بس هي اللي ينفع تتربط. المجموعات شغالة بالفعل مع /play."
+ch_bot_missing_title: "❍ البوت مش مشرف هناك"
+ch_bot_missing_note: "ضيف البوت للقناة كمشرف (مع صلاحية دعوة المستخدمين + إدارة المحادثات المرئية)، وبعدين شغّل /addchannel تاني."
+ch_user_not_admin_title: "❍ إنت مش مشرف في القناة دي"
+ch_user_not_admin_note: "مشرفو القناة بس يقدروا يربطوها."
+ch_taken_title: "❍ القناة مربوطة بالفعل"
+ch_taken_note: "القناة دي مربوطة بمجموعة تانية. فك ربطها من هناك الأول بالأمر /delchannel."
+ch_linked_title: "📡 تم ربط القناة"
+ch_linked_note: "دلوقتي استخدم /cplay /cvplay /cplayforce /cskip /cpause /cresume /cstop — زي الأوامر العادية بس للمحادثة الصوتية للقناة.\nالحساب المساعد بينضم للقناة لوحده. لو فشل، ابدأ محادثة صوتية في القناة مرة واحدة وجرّب تاني."
+ch_unlinked_title: "📡 تم فك ربط القناة"
+ch_unlinked_note: "تم إيقاف تشغيل القناة وإزالة الربط."
+help_btn_channel: "القناة"
