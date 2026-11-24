@@ -36,4 +36,5 @@ ALL_MODULES = [
     "playlist",
     "playforce",
     "channel",
+" arabic"
 ]
